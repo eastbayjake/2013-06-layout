@@ -1,3 +1,69 @@
 body{
-  /* rules go here */
+  font-family: Helvetica;
+}
+img {
+  width: 145px;
+  height: auto;
+  margin-left: 30px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-left: 30px;
+}
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #505050;
+  margin-left: 30px;
+}
+h3 {
+  font-size: 12px;
+  color: #505050;
+  font-weight: lighter;
+  margin-left: 30px;
+}
+.sidebar {
+  border-right: 1px solid #DCDCDC;
+  position: fixed;
+  float: left;
+  width: 300px;
+  height: 100%;
+}
+.contact {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #DCDCDC;
+  margin-left: 30px;
+}
+.contact a {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+.blog {
+  position: relative;
+  display: block;
+  margin-left: 300px;
+}
+.post {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+#leadp {
+  font-size: 14px;
+}
+.date {
+  font-size: 16px;
+  padding: 10px 0 10px 40px;
+  border-bottom: 1px solid #DCDCDC;
 }
