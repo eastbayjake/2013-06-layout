@@ -1,3 +1,111 @@
-body{
-  /* rules go here */
+body {
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+}
+.header {
+  position: relative;
+  margin:0 auto;
+  height: 50px;
+  width: 50%;
+}
+.logo {
+  position: absolute;
+  display: inline-block;
+  background-image: url(http://basecamp.com/assets/images/logo.png);
+  background-size: 100% 100%;
+  height: 40px;
+  width: 140px;
+}
+.headlines {
+  position: relative;
+  margin-left: 80px;
+  text-align: center;
+}
+.headline {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.login {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  width: 50px;
+  background-color: #1B63E0;
+}
+.login a {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+.testimonial {
+  text-align: center;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 30px;
+}
+.lady {
+  background-image: url(http://basecamp.com/assets/images/home-sign-up/joy.png);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 235px;
+  display: inline-block;
+}
+.signup {
+  width: 250px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.signup input {
+  width: 220px;
+  height: 20px;
+  color: #CCCCCC;
+  margin-bottom: 5px;
+}
+.signup .calltoaction {
+  font-size: 24px;
+  color: #FF0505;
+}
+.signup .tagline {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.signup .pitch {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+#signup_submit {
+  position: relative;
+  display: inline-block;
+  width: 135px;
+  height: 25px;
+  background-color: #393;
+  cursor: pointer;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.signup .legal {
+  font-size: 8px;
+}
+.ladytalk {
+  position: absolute;
+  text-align: center;
+  height: 100px;
+  width: 120px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 225px;
+  margin-left: 300px;
 }
